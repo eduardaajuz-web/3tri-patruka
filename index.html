@@ -47,6 +47,19 @@
             </tbody>
         </table>
     </main>
-    <footer></footer>
+
+    <script> 
+    
+   async function carregar_horario(dia) {
+        const coluna_dia = document.getElementById(dia)
+        try {
+            const link = "http://localhost:3000/horario/"
+        }catch (erro) {
+            coluna_dia.innerHTML = " Erro ao carregar horários!"
+        }
+    }
+    
+    </script>
+   
 </body>
-</html>
+</html>  
